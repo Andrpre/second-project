@@ -1,0 +1,40 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #7AA041;
+}
+
+.mian{
+    display: flex;
+    justify-content: center;
+    margin: 140px 0 0 0;
+}
+
+.promocod_div{
+    background-color: #F2EEE3;
+    border: 1px #D9D0C2 solid;
+    border-radius: 10px;
+    padding: 20px 26px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 321px;
+}
+
+.promocod b{
+    text-transform: uppercase;
+    color:#7A3A13;
+}
+
+.promocod{
+    background-color: #fff;
+    padding: 10.5px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    box-sizing: border-box;
+}
