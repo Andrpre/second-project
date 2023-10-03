@@ -6,7 +6,7 @@ a{
     color: #7AA041;
 }
 
-.mian{
+.main{
     display: flex;
     justify-content: center;
     margin: 140px 0 0 0;
@@ -21,11 +21,23 @@ a{
     gap: 20px;
     flex-direction: column;
     width: 321px;
+    position: relative;
 }
 
-.promocod b{
-    text-transform: uppercase;
-    color:#7A3A13;
+.circle_left{
+    background: #fff;
+    position: absolute;
+    left: -1px;
+    top: calc(50% - 10px);
+    border-radius: 0 10px 10px 0;
+}
+
+.circle_right{
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: calc(50% - 10px);
+    border-radius: 10px 0 0 10px;
 }
 
 .promocod{
@@ -37,4 +49,9 @@ a{
     justify-content: space-between;
     height: 40px;
     box-sizing: border-box;
+}
+
+.promocod b{
+    text-transform: uppercase;
+    color:#7A3A13;
 }
